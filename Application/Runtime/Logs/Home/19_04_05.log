@@ -1,0 +1,36 @@
+[ 2019-04-05T23:45:36+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\x086le\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\x086le\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('24','23','22','21')  [ RunTime:0.0003s ]
+
+[ 2019-04-05T23:47:01+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\x086le\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\x086le\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('24','23','22','21')  [ RunTime:0.0004s ]
+
+[ 2019-04-05T23:48:12+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\x086le\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\x086le\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0597s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('24','23','22','21')  [ RunTime:0.0004s ]
+

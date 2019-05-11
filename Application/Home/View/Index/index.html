@@ -1,0 +1,92 @@
+<include file="Index/header" />
+<section id="property" class="padding bg_gallery">
+  <div class="container">
+
+
+    <div class="row">
+      <div class="col-sm-9 col-md-9">
+        <div class="banner"  >
+          <div class="banner-left">
+
+
+            <a target="_blank" href="/index.php?c=detail&id={$result['topPicMagazine'][0]['magazine_id']}">
+              <img width="670" height="360" src="{$result['topPicMagazine'][0]['thumb']}" alt="">
+            </a>
+          </div>
+          <div class="banner-right">
+            <ul>
+              <volist name="result['topSmailMagazine']" id="vo">
+              <li>
+                <a target="_blank" href="/index.php?c=detail&id={$vo.magazine_id}"><img width="150" height="113" src="{$vo.thumb}" alt="{$vo.title}"></a>
+              </li>
+                </volist>
+
+            </ul>
+          </div>
+        </div>
+
+
+
+        <div id="property-gallery" class="cbp listing1">
+          <volist name="result['listMagazine']" id="vo">
+
+
+            <div class= "cbp-item sale">
+            <div class="property_item">
+              <div class="image">
+                <a href="/index.php?c=detail&id={$vo.magazine_id}"><img src="{$vo.thumb}" alt="{$vo.title}" class="img-responsive"></a>
+                <div class="price clearfix">
+                  <span class="tag pull-right">{$vo.price}元/年</span>
+                </div>
+                <span class="tag_t" <if condition ="$vo.forsale eq 0"> style="display:none"</if>><if condition ="$vo.forsale eq 1">For Sale</if></span>
+                <span class="tag_l" <if condition ="$vo.featured eq 0">style="display:none"</if>><if condition ="$vo.featured eq 1">Featured</if></span>
+              </div>
+              <div class="proerty_content">
+                <div class="proerty_text">
+                  <h3 class="captlize"><a href="/index.php?c=detail&id={$vo.magazine_id}">{$vo.title}</a></h3>
+                  <p><span style="line-height:28px;">{$vo.type}</span></p>
+                  <p><span style="background:forestgreen;color:white;line-height:28px;">{$vo.description}</span></p>
+                  <p><span style="line-height:28px;">报刊代号:{$vo.magazine_code}</span></p>
+                </div>
+
+                <!--
+                <div class="property_meta transparent">
+
+                  <dd class="magazine-intro">
+                    {$vo.keywords}
+                  </dd>
+                </div>
+                -->
+
+                <div class="favroute clearfix">
+                  <p><span>{$vo.create_time|date="Y-m-d H:i:s",###}</span> -订阅-(<i magazine-id="{$vo.magazine_id}" class="magazine_count node-{$vo.magazine_id}">{$vo.count}</i>)</p>
+                  <ul class="pull-right">
+                    <li><a href="javascript:void(0)"><i class="icon-like"></i></a></li>
+                    <li><a href="#seventy" class="share_expender" data-toggle="collapse"><i class="icon-share3"></i></a></li>
+                  </ul>
+                </div>
+                <div class="toggle_share collapse" id="seventy">
+                  <ul>
+                    <li><a href="javascript:void(0)" class="facebook"><i class="icon-facebook-1"></i> Facebook</a></li>
+                    <li><a href="javascript:void(0)" class="twitter"><i class="icon-twitter-1"></i> Twitter</a></li>
+                    <li><a href="javascript:void(0)" class="vimo"><i class="icon-vimeo3"></i> Vimeo</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          </volist>
+        </div>
+
+
+    </div>
+      <include file="Index/right" />
+  </div>
+</section>
+</body>
+<script src="/Public/js/jquery.js"></script>
+<script src="/Public/js/count.js"></script>
+<script src="/Public/js/jquery-2.1.4.js"></script>
+<script src="/Public/js/jquery.cubeportfolio.min.js"></script>
+<script src="/Public/js/functions.js"></script>
+</html>

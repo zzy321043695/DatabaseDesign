@@ -1,0 +1,185 @@
+<include file="Index/header" />
+<?php $vo = $result['magazine'];?>
+	<section id="property_1" class="padding bg_gallery">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-md-9" >
+					<div class="container-fluid" id="books">
+						<div class="row">
+							<div class="col-sm-10 col-md-6">
+								<!--<div class="tag">30%OFF</div>
+								<div class="tag-side"><img src="Public/images/orange-flag.png">
+								</div>-->
+								<img class="center-block img-responsive" src="{$vo.thumb}" height="550px" style="padding:20px;">
+							</div>
+							<div >
+								<h1> {$vo.title}</h1>
+								<br>
+								<p>单   价： <span style="color: #f00;">¥{$vo.price}元</span></p>
+								<p>季度价： <if condition ="$vo.price_quarter eq 0">暂无</if><if condition ="$vo.price_quarter neq 0">¥{$vo.price_quarter}元</if></p>
+								<p>半年价： <if condition ="$vo.price_half_year eq 0">暂无</if><if condition ="$vo.price_half_year neq 0">¥{$vo.price_half_year}元</if></p>
+								<p>全年价： <span style="color: #f00;">¥{$vo.price_year}元</span></p>
+								<!--<span style="color:#00B9F5;">-->
+                                 <!--#{$vo.small_title}     #{$vo.description}-->
+                                <!--</span>-->
+								<hr>
+								<div style="width: 350px;margin-top: 20px;float: left;">
+								<span style="font-weight:bold;line-height:28px;"> 发行年份 : {$vo.issue_year} </span>
+									<br>
+									<span style="font-weight:bold;line-height:28px;"> 购买数量 :  </span>
+									<br>
+									<span style="float:left;font-weight:bold;line-height:28px;"> 购买数量 :  </span>
+									<a onclick="setAmount.reduce('#buy-num')" href="javascript:;" style="width: 22px;height: 22px;display: block;line-height: 22px;text-align: center;border: 1px solid #ccc;text-decoration: none;margin: 0 5px;font-size: 16px;color: #333;float: left;" id="add">-</a>
+								<select id="quantity">';
+								    <option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+									<a onclick="setAmount.add('#buy-num')" href="javascript:;" style="width: 22px;height: 22px;display: block;line-height: 22px;text-align: center;border: 1px solid #ccc;text-decoration: none;margin: 0 5px;font-size: 16px;color: #333;float: left;" class="button" id="reduce">+</a>
+
+								<br><br><br>
+								<a id="buyLink"  type="button" value="click" class="btn btn-lg btn-danger" style="padding:15px;color:white;text-decoration:none;">
+									加入购物车
+								</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="container-fluid">
+						<h2>报刊信息</h2>
+						<p>发行刊局：{$vo.description}</p>
+						<p>发行年份：{$vo.issue_year}</p>
+						<p>标准刊号：{$vo.magazine_code}</p>
+						<p>邮发编号：{$vo.post_code_from}</p>
+						<p>期刊类别：{$vo.type}</p>
+						<p>报刊种类：{$vo.magazine_type}</p>
+						<p>{$vo.content}</p>
+					</div>
+
+
+				</div>
+
+
+				<include file="Index/right" />
+				<!-- end right-->
+			</div>
+		</div>
+	</section>
+</body>
+<script >
+    //alert("调试");
+    var SCOPE = {
+        'add_url' : '/index.php?c=Cart&a=addMagazine',
+    }
+
+    $("#buyLink").click(function() {
+
+        /*alert(<?php
+            $value = cookie('Info');
+				echo $value['magazine_id'];
+                ?>);*/
+
+        /*if(!<?php echo $value['user_name'];?>){
+			alert("请登陆);
+		}*/
+
+        var data={};
+        data['count'] = $('#quantity option:selected') .val();
+		data['magazine_id']='<?php
+            echo $value['magazine_id'];
+            ?>';
+			data['magazine_name']='<?php
+        echo $value['magazine_name'];
+            ?>';
+        data['username']='<?php
+            echo $value['user_name'];
+            ?>';
+			data['user_id']='<?php
+                echo $value['user_id'];
+            ?>';
+			data['thumb']='<?php
+        echo $value['thumb'];
+            ?>';
+			data['price']='<?php
+        echo $value['price'];
+            ?>';
+		//alert(data['magazine_id']);
+                $.post(
+                    '/index.php?c=cart&a=addMagazine',
+                    data,
+                    function (s) {
+                        if (s.status == 1) {
+                            //alert(s.data['thumb']);
+                            return dialog.success(s.message, '');
+                            // 跳转到相关页面
+                        } else {
+                            return dialog.error(s.message);
+                        }
+                    }
+                    , "JSON");
+
+    });
+
+	/*
+	 $.post(
+	 url,
+	 data,
+	 function(s){
+	 if(s.status == 1) {
+	 return dialog.success(s.message,'');
+	 // 跳转到相关页面
+	 }else {
+	 return dialog.error(s.message);
+	 }
+	 }
+	 ,"JSON");
+	 });*/
+	/*
+	 alert("调试");
+	 var oBtn = document.getElementById('buyLink');
+	 oBtn.onclick=function addSub() {
+
+	 //val count = $('#quantity option:selected') .val();
+	 var obj = document.getElementByIdx_x("quantity"); //定位id
+	 var count = obj.options[index].value;
+	 val url = SCOPE.add_url;
+	 data = {};
+	 data['count']=count;
+	 data['user_name']= <?php echo $userName; ?> ;
+	 data['user_id']= <?php echo $userId; ?> ;
+	 data['magazine_id']=<?php echo $magazine['magazine_id']; ?>;
+	 data['magazine_name']=<?php echo $magazine['title']; ?>;
+
+
+	 $.post(
+	 url,
+	 data,
+	 function(s){
+	 if(s.status == 1) {
+	 return dialog.success(s.message,'');
+	 // 跳转到相关页面
+	 }else {
+	 return dialog.error(s.message);
+	 }
+	 }
+	 ,"JSON");
+	 }
+	 */
+</script>
+<script src="/Public/js/jquery.js"></script>
+
+
+
+</html>
+
+
+
+<head>
+	<link href="Public/css/bootstrap.min.css" rel="stylesheet">
+	<link href="Public/css/my.css" rel="stylesheet">
+</head>
+
+
