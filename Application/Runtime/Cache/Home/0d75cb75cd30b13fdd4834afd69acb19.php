@@ -52,7 +52,9 @@
     <div class="container">
       <div class="navbar-header">
         <a href="/index.php">
-          <img src="/Public/images/logo11.png"  style="width: 50px;" alt="">
+          <img src="/Public/images/log.png"  style="width: 250px;" alt="">
+
+          <!--<img src="/Public/images/logo11.png"  style="width: 50px;" alt="">-->
         </a>
       </div>
 
@@ -113,7 +115,8 @@
 								<p>单   价： <span style="color: #f00;">¥<?php echo ($vo["price"]); ?>元</span></p>
 								<p>季度价： <?php if($vo["price_quarter"] == 0): ?>暂无<?php endif; if($vo["price_quarter"] != 0): ?>¥<?php echo ($vo["price_quarter"]); ?>元<?php endif; ?></p>
 								<p>半年价： <?php if($vo["price_half_year"] == 0): ?>暂无<?php endif; if($vo["price_half_year"] != 0): ?>¥<?php echo ($vo["price_half_year"]); ?>元<?php endif; ?></p>
-								<p>全年价： <span style="color: #f00;">¥<?php echo ($vo["price_year"]); ?>元</span></p>
+								<!--<p>全年价： <span style="color: #f00;">¥<?php echo ($vo["price_year"]); ?>元</span></p>-->
+								<p>全年价： <?php if($vo["price_half_year"] == 0): ?>暂无<?php endif; if($vo["price_half_year"] != 0): ?>¥<?php echo ($vo["price_year"]); ?>元<?php endif; ?></p>
 								<!--<span style="color:#00B9F5;">-->
                                  <!--#<?php echo ($vo["small_title"]); ?>     #<?php echo ($vo["description"]); ?>-->
                                 <!--</span>-->
@@ -121,10 +124,9 @@
 								<div style="width: 350px;margin-top: 20px;float: left;">
 								<span style="font-weight:bold;line-height:28px;"> 发行年份 : <?php echo ($vo["issue_year"]); ?> </span>
 									<br>
-									<span style="font-weight:bold;line-height:28px;"> 购买数量 :  </span>
-									<br>
+
 									<span style="float:left;font-weight:bold;line-height:28px;"> 购买数量 :  </span>
-									<a onclick="setAmount.reduce('#buy-num')" href="javascript:;" style="width: 22px;height: 22px;display: block;line-height: 22px;text-align: center;border: 1px solid #ccc;text-decoration: none;margin: 0 5px;font-size: 16px;color: #333;float: left;" id="add">-</a>
+									<!--<a onclick="setAmount.reduce('#buy-num')" href="javascript:;" style="width: 22px;height: 22px;display: block;line-height: 22px;text-align: center;border: 1px solid #ccc;text-decoration: none;margin: 0 5px;font-size: 16px;color: #333;float: left;" id="add">-</a>-->
 								<select id="quantity">';
 								    <option value="1">1</option>
 									<option value="2">2</option>
@@ -132,7 +134,7 @@
 									<option value="4">4</option>
 									<option value="5">5</option>
 								</select>
-									<a onclick="setAmount.add('#buy-num')" href="javascript:;" style="width: 22px;height: 22px;display: block;line-height: 22px;text-align: center;border: 1px solid #ccc;text-decoration: none;margin: 0 5px;font-size: 16px;color: #333;float: left;" class="button" id="reduce">+</a>
+									<!--<a onclick="setAmount.add('#buy-num')" href="javascript:;" style="width: 22px;height: 22px;display: block;line-height: 22px;text-align: center;border: 1px solid #ccc;text-decoration: none;margin: 0 5px;font-size: 16px;color: #333;float: left;" class="button" id="reduce">+</a>-->
 
 								<br><br><br>
 								<a id="buyLink"  type="button" value="click" class="btn btn-lg btn-danger" style="padding:15px;color:white;text-decoration:none;">
@@ -145,12 +147,12 @@
 
 					<div class="container-fluid">
 						<h2>报刊信息</h2>
-						<p>发行刊局：<?php echo ($vo["description"]); ?></p>
-						<p>发行年份：<?php echo ($vo["issue_year"]); ?></p>
-						<p>标准刊号：<?php echo ($vo["magazine_code"]); ?></p>
-						<p>邮发编号：<?php echo ($vo["post_code_from"]); ?></p>
-						<p>期刊类别：<?php echo ($vo["type"]); ?></p>
-						<p>报刊种类：<?php echo ($vo["magazine_type"]); ?></p>
+						<p style="font-size:20px">发行刊局：<?php echo ($vo["description"]); ?></p>
+						<p style="font-size:20px">发行年份：<?php echo ($vo["issue_year"]); ?></p>
+						<p style="font-size:20px">标准刊号：<?php echo ($vo["magazine_code"]); ?></p>
+						<p style="font-size:20px">邮发编号：<?php echo ($vo["post_code_from"]); ?></p>
+						<p style="font-size:20px">期刊类别：<?php echo ($vo["type"]); ?></p>
+						<p style="font-size:20px">报刊种类：<?php echo ($vo["magazine_type"]); ?></p>
 						<p><?php echo ($vo["content"]); ?></p>
 					</div>
 
@@ -160,7 +162,7 @@
 
 				<div class="col-sm-3 col-md-3" >
   <div class="right-title">
-    <h3>销量排行</h3>
+    <h3>订阅排行</h3>
     <!--调试-->
     <span>top 5</span>
   </div>

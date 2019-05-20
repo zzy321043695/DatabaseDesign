@@ -25,6 +25,7 @@ class ContentController extends CommonController {
         $pageSize = 10;
 
         $magazine = D("Magazine")->getmagazine($conds,$page,$pageSize);
+
         $count = D("Magazine")->getmagazineCount($conds);
 
         $res  =  new \Think\Page($count,$pageSize);
@@ -33,27 +34,50 @@ class ContentController extends CommonController {
         $this->assign('pageres',$pageres);
         $this->assign('magazine',$magazine);
         $this->assign('positions', $positions);
-
         $this->assign('webSiteMenu',D("Menu")->getBarMenus());
         $this->display();
     }
     public function add(){
         if($_POST) {
             if(!isset($_POST['title']) || !$_POST['title']) {
-                return show(0,'标题不存在');
+                return show(0,'杂志名不存在');
             }
             if(!isset($_POST['small_title']) || !$_POST['small_title']) {
-                return show(0,'短标题不存在');
+                return show(0,'主编不存在');
             }
-            if(!isset($_POST['catid']) || !$_POST['catid']) {
-                return show(0,'文章栏目不存在');
-            }
+//            if(!isset($_POST['catid']) || !$_POST['catid']) {
+//                return show(0,'文章栏目不存在');
+//            }
             if(!isset($_POST['keywords']) || !$_POST['keywords']) {
-                return show(0,'关键字不存在');
+                return show(0,'简易描述不存在');
             }
             if(!isset($_POST['content']) || !$_POST['content']) {
                 return show(0,'content不存在');
             }
+            if(!isset($_POST['issue_year']) || !$_POST['issue_year']) {
+                return show(0,'发行年份不能为空！');
+            }
+            if(!isset($_POST['price']) || !$_POST['price']) {
+                return show(0,'单价不存在');
+            }
+            if(!is_numeric($_POST['price'])) {
+                return show(0,'单价必须为数字');
+            }
+            if(!isset($_POST['magazine_code']) || !$_POST['magazine_code']) {
+                return show(0,'标准刊号不存在');
+            }
+            if(!isset($_POST['post_code_from']) || !$_POST['post_code_from']) {
+                return show(0,'邮发编号不存在');
+            }
+
+            if(!isset($_POST['magazine_type']) || !$_POST['magazine_type']) {
+                return show(0,'报刊种类不存在');
+            }
+            if(!isset($_POST['type']) || !$_POST['type']) {
+                return show(0,'期刊类别不存在');
+            }
+
+
             if($_POST['magazine_id']) {
                 return $this->save($_POST);
             }
@@ -88,6 +112,10 @@ class ContentController extends CommonController {
 
     public function edit() {
         $magazineId = $_GET['id'];
+
+
+
+
         if(!$magazineId) {
             // 执行跳转
             $this->redirect('/admin.php?c=content');
@@ -113,6 +141,45 @@ class ContentController extends CommonController {
     public function save($data) {
         $magazineId = $data['magazine_id'];
         unset($data['magazine_id']);
+
+
+        if(!isset($data['title']) || !$data['title']) {
+            return show(0,'杂志名不存在');
+        }
+        if(!isset($data['small_title']) || !$data['small_title']) {
+            return show(0,'主编不存在');
+        }
+//            if(!isset($_POST['catid']) || !$_POST['catid']) {
+//                return show(0,'文章栏目不存在');
+//            }
+        if(!isset($data['keywords']) || !$data['keywords']) {
+            return show(0,'简易描述不存在');
+        }
+        if(!isset($data['content']) || !$data['content']) {
+            return show(0,'content不存在');
+        }
+        if(!isset($data['issue_year']) || !$data['issue_year']) {
+            return show(0,'发行年份不能为空！');
+        }
+        if(!isset($data['price']) || !$data['price']) {
+            return show(0,'单价不存在');
+        }
+        if(!is_numeric($data['price'])) {
+            return show(0,'单价必须为数字');
+        }
+        if(!isset($data['magazine_code']) || !$data['magazine_code']) {
+            return show(0,'标准刊号不存在');
+        }
+        if(!isset($data['post_code_from']) || !$data['post_code_from']) {
+            return show(0,'邮发编号不存在');
+        }
+
+        if(!isset($data['magazine_type']) || !$data['magazine_type']) {
+            return show(0,'报刊种类不存在');
+        }
+        if(!isset($data['type']) || !$data['type']) {
+            return show(0,'期刊类别不存在');
+        }
 
         try {
             $id = D("Magazine")->updateById($magazineId, $data);

@@ -32,6 +32,7 @@
     <script src="/Public/js/dialog/layer.js"></script>
     <script src="/Public/js/dialog.js"></script>
     <script type="text/javascript" src="/Public/js/party/jquery.uploadify.js"></script>
+    <script src="/Public/js/echarts.min.js"></script>
 
 </head>
 
@@ -130,7 +131,8 @@
                                 <td><?php echo ($vo["admin_id"]); ?></td>
                                 <td><?php echo ($vo["username"]); ?></td>
                                 <td><?php echo ($vo["realname"]); ?></td>
-                                <td><?php echo (date("Y-m-d H:i",$vo["lastlogintime"])); ?></td>
+                                <!--<td><?php echo (date("Y-m-d H:i",$vo["lastlogintime"])); ?></td>-->
+                                <td><?php echo ($vo["lastlogintime"]); ?></td>
                                 <td><span  attr-status="<?php if($vo['status'] == 1): ?>0<?php else: ?>1<?php endif; ?>"  attr-id="<?php echo ($vo["admin_id"]); ?>" class="sing_cursor singcms-on-off" id="singcms-on-off" ><?php echo (status($vo["status"])); ?></span></td>
                                 <td>    <a href="javascript:void(0)" attr-id="<?php echo ($vo["admin_id"]); ?>" id="singcms-delete"  attr-a="admin" attr-message="删除"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a></td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -159,7 +161,7 @@
         'edit_url' : '/admin.php?c=admin&a=edit',
         'set_status_url' : '/admin.php?c=admin&a=setStatus',
         'index_url' : '/admin.php?c=admin',
-
+        'jump_url' : '/admin.php?c=admin',
     }
 </script>
 

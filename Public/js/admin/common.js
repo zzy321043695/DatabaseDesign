@@ -115,6 +115,7 @@ $('.singcms-table #singcms-on-off').on('click', function(){
     var id = $(this).attr('attr-id');
     var status = $(this).attr("attr-status");
     var url = SCOPE.set_status_url;
+    var jump_url = SCOPE.jump_url;
 
     data = {};
     data['id'] = id;
@@ -130,7 +131,7 @@ $('.singcms-table #singcms-on-off').on('click', function(){
         scrollbar: true,
         yes: function(){
             // 执行相关跳转
-            todelete(url, data);
+            todelete(url, data,jump_url);
         },
 
     });

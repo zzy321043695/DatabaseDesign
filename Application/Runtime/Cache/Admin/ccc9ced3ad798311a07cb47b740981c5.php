@@ -31,6 +31,7 @@
     <script src="/Public/js/dialog/layer.js"></script>
     <script src="/Public/js/dialog.js"></script>
     <script type="text/javascript" src="/Public/js/party/jquery.uploadify.js"></script>
+    <script src="/Public/js/echarts.min.js"></script>
 
 </head>
 
@@ -214,6 +215,7 @@
     'sing_magazine_view_url' : '/index.php?c=view',
     'listorder_url' : '/admin.php?c=content&a=listorder',
     'push_url' : '/admin.php?c=content&a=push',
+      'jump_url' : '/admin.php?c=content',
   }
 </script>
 <script src="/Public/js/admin/common.js"></script>

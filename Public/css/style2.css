@@ -68,6 +68,7 @@ body a {
 }
 
 h1 {
+    line-height:90px;
     text-align: center;
     font-family: 'FjallaOne-Regular';
     font-size: 45px;

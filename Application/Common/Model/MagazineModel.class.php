@@ -18,6 +18,15 @@ class MagazineModel extends Model {
         $list = $this->_db->where($conditions)->order('magazine_id desc')->limit($limit)->select();
         return $list;
     }
+
+    public function getMagazineByName($data) {
+
+        $conditions = $data;
+        $conditions['title'] = array('like','%'.$data['title'].'%');
+        $list = $this->_db->where($conditions)->order('magazine_id desc')->select();
+        return $list;
+    }
+
     public function insert($data = array()) {
         if(!is_array($data) || !$data) {
             return 0;

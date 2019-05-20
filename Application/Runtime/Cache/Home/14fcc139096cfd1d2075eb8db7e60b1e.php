@@ -52,7 +52,9 @@
     <div class="container">
       <div class="navbar-header">
         <a href="/index.php">
-          <img src="/Public/images/logo11.png"  style="width: 50px;" alt="">
+          <img src="/Public/images/log.png"  style="width: 250px;" alt="">
+
+          <!--<img src="/Public/images/logo11.png"  style="width: 50px;" alt="">-->
         </a>
       </div>
 
@@ -176,7 +178,7 @@
 
 				<div class="col-sm-3 col-md-3" >
   <div class="right-title">
-    <h3>销量排行</h3>
+    <h3>订阅排行</h3>
     <!--调试-->
     <span>top 5</span>
   </div>

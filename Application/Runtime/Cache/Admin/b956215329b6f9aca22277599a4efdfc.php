@@ -32,6 +32,7 @@
     <script src="/Public/js/dialog/layer.js"></script>
     <script src="/Public/js/dialog.js"></script>
     <script type="text/javascript" src="/Public/js/party/jquery.uploadify.js"></script>
+    <script src="/Public/js/echarts.min.js"></script>
 
 </head>
 
@@ -115,14 +116,14 @@
                         <option value="1" <?php if($type == 1): ?>selected="selected"<?php endif; ?>>后台菜单</option>
                         <option value="0" <?php if($type == 0): ?>selected="selected"<?php endif; ?>>前端导航</option>
                     </select>
-                </div>
 
-                <input type="hidden" name="c" value="menu"/>
-                <input type="hidden" name="a" value="index"/>
-                <span class="input-group-btn">
-                  <button id="sub_data" type="submit" class="btn btn-primary"><i class="glyphicon glyphicon-search"></i><tton>
+
+                    <input type="hidden" name="c" value="menu"/>
+                    <input type="hidden" name="a" value="index"/>
+                    <span class="input-group-btn">
+                  <button id="sub_data" type="submit" class="btn btn-primary"><i class="glyphicon glyphicon-search"></i></button>
                 </span>
-
+                </div>
             </form>
         </div>
         <div>

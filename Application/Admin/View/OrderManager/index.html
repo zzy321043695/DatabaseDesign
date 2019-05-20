@@ -1,0 +1,100 @@
+<include file="Index/header" />
+<body>
+<div id="wrapper">
+    <include file="Index/nav"/>
+    <div id="page-wrapper">
+        <div class="container-fluid">
+            <!-- Page Heading -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <ol class="breadcrumb">
+                        <li>
+                            <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=admin">订单管理</a>
+                        </li>
+                        <li class="active">
+                            <i class="fa fa-table"></i>{$nav}
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <!-- /.row -->
+
+            <!--<div>-->
+                <!--<button  id="button-add" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>添加 </button>-->
+            <!--</div>-->
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3></h3>
+                    <div class="table-responsive">
+                        <form id="singcms-listorder">
+                            <table class="table table-bordered table-hover singcms-table">
+                                <thead>
+                                <tr>
+                                    <th>订单id</th>
+                                    <th>用户名</th>
+                                    <th>杂志名</th>
+                                    <th>杂志数量</th>
+                                    <th>下单时间</th>
+                                    <th>单价</th>
+                                    <th>总价</th>
+                                    <th>订阅起始时间</th>
+                                    <th>订阅到期时间</th>
+                                    <th>处理到哪一步</th>
+                                    <th>状态</th>
+                                    <th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="orders" id="vo">
+                                    <tr>
+
+                                        <td>{$vo.id}</td>
+                                        <td>{$vo.username}</td>
+                                        <td>{$vo.magazine_name}</td>
+                                        <td>{$vo.count}</td>
+                                        <td>{$vo.create_time}</td>
+                                        <td>{$vo.price}</td>
+                                        <td>{$vo.total_price}</td>
+                                        <td>{$vo.start_time}</td>
+                                        <td>{$vo.end_time}</td>
+                                        <td>{$vo.state}</td>
+                                        <td><span  attr-status="<if condition="$vo['status'] eq 1">0<else/>1</if>"  attr-id="{$vo.id}" class="sing_cursor singcms-on-off" id="singcms-on-off" >{$vo.status|status}</span></td>
+
+                                        <td>
+                                            <span class="sing_cursor glyphicon glyphicon-edit" aria-hidden="true" id="singcms-edit" attr-id="{$vo.id}" ></span>
+                                            <a href="javascript:void(0)" attr-id="{$vo.id}" id="singcms-delete"  attr-a="admin" attr-message="删除"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a>
+                                        </td>
+                                    </tr>
+                                </volist>
+                                </tbody>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+
+    </div>
+    <!-- /#page-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+<!-- Morris Charts JavaScript -->
+<script>
+    var SCOPE = {
+
+        'edit_url' : '/admin.php?c=orderManager&a=edit',
+        'set_status_url' : '/admin.php?c=orderManager&a=setStatus',
+        'index_url' : '/admin.php?c=orderManager',
+
+    }
+</script>
+
+<include file="Index/footer" />
+
+
+
+
+

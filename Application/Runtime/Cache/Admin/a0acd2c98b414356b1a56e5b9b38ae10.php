@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>sing后台管理平台</title>
+    <title>报刊订阅后台管理系统</title>
     <!-- Bootstrap Core CSS -->
     <link href="/Public/css/bootstrap.min.css" rel="stylesheet">
 
@@ -31,6 +31,7 @@
     <script src="/Public/js/dialog/layer.js"></script>
     <script src="/Public/js/dialog.js"></script>
     <script type="text/javascript" src="/Public/js/party/jquery.uploadify.js"></script>
+    <script src="/Public/js/echarts.min.js"></script>
 
 </head>
 
@@ -48,7 +49,7 @@
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     
-    <a class="navbar-brand" >singcms内容管理平台</a>
+    <a class="navbar-brand" >后台管理平台</a>
   </div>
   <!-- Top Menu Items -->
   <ul class="nav navbar-right top-nav">
@@ -140,7 +141,7 @@
 					<div class="form-group">
 						<label for="inputname" class="col-sm-2 control-label">文章id:</label>
 						<div class="col-sm-5">
-							<input type="text" name="news_id" class="form-control" id="inputname" placeholder="如果和文章无关联的可以不添加文章id">
+							<input type="text" name="magazine_id" class="form-control" id="inputname" placeholder="如果和文章无关联的可以不添加文章id">
 						</div>
 					</div>
 					<div class="form-group">

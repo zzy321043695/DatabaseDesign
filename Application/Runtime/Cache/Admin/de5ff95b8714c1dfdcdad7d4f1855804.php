@@ -31,6 +31,7 @@
     <script src="/Public/js/dialog/layer.js"></script>
     <script src="/Public/js/dialog.js"></script>
     <script type="text/javascript" src="/Public/js/party/jquery.uploadify.js"></script>
+    <script src="/Public/js/echarts.min.js"></script>
 
 </head>
 
@@ -93,7 +94,7 @@
 
 				<ol class="breadcrumb">
 					<li>
-						<i class="fa fa-dashboard"></i>  <a href="javascript:void(0)">修改用户信息</a>
+						<i class="fa fa-dashboard"></i>  <a href="javascript:void(0)">修改优惠券信息</a>
 					</li>
 					<li class="active">
 						<i class="fa fa-edit"></i> 配置
@@ -108,41 +109,34 @@
 
 				<form class="form-horizontal" id="singcms-form">
 					<div class="form-group">
-						<label  class="col-sm-2 control-label">用户名:</label>
+						<label  class="col-sm-2 control-label">优惠码id:</label>
 						<div class="col-sm-5">
-							<?php echo ($vo["username"]); ?>
+							<?php echo ($vo["id"]); ?>
 						</div>
 					</div>
 
 					<div class="form-group">
-						<label  class="col-sm-2 control-label">真实姓名:</label>
+						<label  class="col-sm-2 control-label">折扣力度:</label>
 						<div class="col-sm-5">
-							<input type="text" class="form-control" name="realname" id="inputPassword3" placeholder="" value="<?php echo ($vo["realname"]); ?>">
+							<input type="text" class="form-control" name="discount" id="inputPassword3" placeholder="" value="<?php echo ($vo["discount"]); ?>">
 						</div>
 					</div>
 
 					<div class="form-group">
-						<label  class="col-sm-2 control-label">电话:</label>
+						<label  class="col-sm-2 control-label">优惠码:</label>
 						<div class="col-sm-5">
-							<input type="text" class="form-control" name="phone_number" id="inputPassword3" placeholder="" value="<?php echo ($vo["phone_number"]); ?>">
+							<input type="text" class="form-control" name="code" id="inputPassword3" placeholder="" value="<?php echo ($vo["code"]); ?>">
 						</div>
 					</div>
 
 					<div class="form-group">
-						<label  class="col-sm-2 control-label">家庭住址:</label>
+						<label  class="col-sm-2 control-label">用户id:</label>
 						<div class="col-sm-5">
-							<input type="text" class="form-control" name="address" id="inputPassword3" placeholder="" value="<?php echo ($vo["address"]); ?>">
+							<input type="text" class="form-control" name="user_id" id="inputPassword3" placeholder="" value="<?php echo ($vo["user_id"]); ?>">
 						</div>
 					</div>
 
-					<div class="form-group">
-						<label  class="col-sm-2 control-label">邮编:</label>
-						<div class="col-sm-5">
-							<input type="text" class="form-control" name="post_number" id="inputPassword3" placeholder="" value="<?php echo ($vo["post_number"]); ?>">
-						</div>
-					</div>
-
-					<input type="hidden" name="admin_id" value="<?php echo ($vo["user_id"]); ?>"/>
+					<input type="hidden" name="id" value="<?php echo ($vo["id"]); ?>"/>
 
 
 					<div class="form-group">
@@ -167,7 +161,7 @@
 </div>
 <script>
 	var SCOPE = {
-		'save_url' : '/admin.php?c=admin&a=save',
+		'save_url' : '/admin.php?c=discount&a=save',
 		'jump_url' : '',
 
 	};

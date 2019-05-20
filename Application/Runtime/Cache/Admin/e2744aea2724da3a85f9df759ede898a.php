@@ -31,6 +31,7 @@
     <script src="/Public/js/dialog/layer.js"></script>
     <script src="/Public/js/dialog.js"></script>
     <script type="text/javascript" src="/Public/js/party/jquery.uploadify.js"></script>
+    <script src="/Public/js/echarts.min.js"></script>
 
 </head>
 
@@ -162,9 +163,9 @@
               </div>
             </div>
             <div class="form-group">
-              <label for="inputPassword3" class="col-sm-2 control-label">出版社:</label>
+              <label for="inputPassword3" class="col-sm-2 control-label">发行刊局:</label>
               <div class="col-sm-9">
-                <input type="text" class="form-control" name="description" id="inputPassword3" placeholder="出版社">
+                <input value="<?php echo ($magazine["description"]); ?>" type="text" class="form-control" name="description" id="inputPassword3" placeholder="描述">
               </div>
             </div>
             <div class="form-group">
@@ -173,11 +174,45 @@
                 <input type="text" class="form-control" name="keywords" id="inputPassword3" placeholder="请填写简易描述">
               </div>
             </div>
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">发行年份:</label>
+              <div class="col-sm-5">
+                <input value="<?php echo ($magazine["issue_year"]); ?>" type="text" class="form-control" name="issue_year" id="inputPassword3" placeholder="请填写发行年份">
+              </div>
+            </div>
 
             <div class="form-group">
-              <label for="inputPassword3" class="col-sm-2 control-label">报刊类型:</label>
+              <label for="inputPassword3" class="col-sm-2 control-label">标准刊号:</label>
               <div class="col-sm-5">
-                <input type="text" class="form-control" name="type" id="inputPassword3" placeholder="请填写报刊类型">
+                <input value="<?php echo ($magazine["magazine_code"]); ?>" type="text" class="form-control" name="magazine_code" id="inputPassword3" placeholder="请填写标准刊号">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">邮发编号:</label>
+              <div class="col-sm-5">
+                <input value="<?php echo ($magazine["post_code_from"]); ?>" type="text" class="form-control" name="post_code_from" id="inputPassword3" placeholder="请填写邮发编号">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">报刊种类:</label>
+              <div class="col-sm-5">
+                <input value="<?php echo ($magazine["magazine_type"]); ?>" type="text" class="form-control" name="magazine_type" id="inputPassword3" placeholder="例如：杂志">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">期刊类别:</label>
+              <div class="col-sm-5">
+                <input value="<?php echo ($magazine["type"]); ?>" type="text" class="form-control" name="type" id="inputPassword3" placeholder="例如：月刊">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">单价:</label>
+              <div class="col-sm-5">
+                <input value="<?php echo ($magazine["price"]); ?>" type="text" class="form-control" name="price" id="inputPassword3" placeholder="填写每期单价">
               </div>
             </div>
 

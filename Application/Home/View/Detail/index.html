@@ -18,7 +18,8 @@
 								<p>单   价： <span style="color: #f00;">¥{$vo.price}元</span></p>
 								<p>季度价： <if condition ="$vo.price_quarter eq 0">暂无</if><if condition ="$vo.price_quarter neq 0">¥{$vo.price_quarter}元</if></p>
 								<p>半年价： <if condition ="$vo.price_half_year eq 0">暂无</if><if condition ="$vo.price_half_year neq 0">¥{$vo.price_half_year}元</if></p>
-								<p>全年价： <span style="color: #f00;">¥{$vo.price_year}元</span></p>
+								<!--<p>全年价： <span style="color: #f00;">¥{$vo.price_year}元</span></p>-->
+								<p>全年价： <if condition ="$vo.price_half_year eq 0">暂无</if><if condition ="$vo.price_half_year neq 0">¥{$vo.price_year}元</if></p>
 								<!--<span style="color:#00B9F5;">-->
                                  <!--#{$vo.small_title}     #{$vo.description}-->
                                 <!--</span>-->
@@ -26,10 +27,9 @@
 								<div style="width: 350px;margin-top: 20px;float: left;">
 								<span style="font-weight:bold;line-height:28px;"> 发行年份 : {$vo.issue_year} </span>
 									<br>
-									<span style="font-weight:bold;line-height:28px;"> 购买数量 :  </span>
-									<br>
+
 									<span style="float:left;font-weight:bold;line-height:28px;"> 购买数量 :  </span>
-									<a onclick="setAmount.reduce('#buy-num')" href="javascript:;" style="width: 22px;height: 22px;display: block;line-height: 22px;text-align: center;border: 1px solid #ccc;text-decoration: none;margin: 0 5px;font-size: 16px;color: #333;float: left;" id="add">-</a>
+									<!--<a onclick="setAmount.reduce('#buy-num')" href="javascript:;" style="width: 22px;height: 22px;display: block;line-height: 22px;text-align: center;border: 1px solid #ccc;text-decoration: none;margin: 0 5px;font-size: 16px;color: #333;float: left;" id="add">-</a>-->
 								<select id="quantity">';
 								    <option value="1">1</option>
 									<option value="2">2</option>
@@ -37,7 +37,7 @@
 									<option value="4">4</option>
 									<option value="5">5</option>
 								</select>
-									<a onclick="setAmount.add('#buy-num')" href="javascript:;" style="width: 22px;height: 22px;display: block;line-height: 22px;text-align: center;border: 1px solid #ccc;text-decoration: none;margin: 0 5px;font-size: 16px;color: #333;float: left;" class="button" id="reduce">+</a>
+									<!--<a onclick="setAmount.add('#buy-num')" href="javascript:;" style="width: 22px;height: 22px;display: block;line-height: 22px;text-align: center;border: 1px solid #ccc;text-decoration: none;margin: 0 5px;font-size: 16px;color: #333;float: left;" class="button" id="reduce">+</a>-->
 
 								<br><br><br>
 								<a id="buyLink"  type="button" value="click" class="btn btn-lg btn-danger" style="padding:15px;color:white;text-decoration:none;">
@@ -50,12 +50,12 @@
 
 					<div class="container-fluid">
 						<h2>报刊信息</h2>
-						<p>发行刊局：{$vo.description}</p>
-						<p>发行年份：{$vo.issue_year}</p>
-						<p>标准刊号：{$vo.magazine_code}</p>
-						<p>邮发编号：{$vo.post_code_from}</p>
-						<p>期刊类别：{$vo.type}</p>
-						<p>报刊种类：{$vo.magazine_type}</p>
+						<p style="font-size:20px">发行刊局：{$vo.description}</p>
+						<p style="font-size:20px">发行年份：{$vo.issue_year}</p>
+						<p style="font-size:20px">标准刊号：{$vo.magazine_code}</p>
+						<p style="font-size:20px">邮发编号：{$vo.post_code_from}</p>
+						<p style="font-size:20px">期刊类别：{$vo.type}</p>
+						<p style="font-size:20px">报刊种类：{$vo.magazine_type}</p>
 						<p>{$vo.content}</p>
 					</div>
 

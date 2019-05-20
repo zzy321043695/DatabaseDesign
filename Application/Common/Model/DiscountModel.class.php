@@ -25,8 +25,18 @@ class DiscountModel extends Model
         return $this->_db->where($data)->order('id desc')->select();
     }
 
-    public function getDiscountByDiscountId($Id=0) {
-        $res = $this->_db->where('id='.$Id)->find();
+    public function getDiscountByDiscountId($id) {
+        $res = $this->_db->where('id = '.$id)->find();
+        return $res;
+    }
+
+//    public function getDiscountByDiscountCode($code) {
+//        $res = $this->_db->where('code = '.$code)->find();
+//        return $res;
+//    }
+
+    public function getDiscountByDiscountCode($code=0) {
+        $res = $this->_db->where("code= '".$code."' and status = 1 ")->find();
         return $res;
     }
 
@@ -60,6 +70,12 @@ class DiscountModel extends Model
 
     }
 
+    public function deleteDiscountById($id) {
+        $data = array(
+            'status' => -1,
+        );
+        return  $this->_db->where('id='.$id)->save($data);
+    }
 
 
 }

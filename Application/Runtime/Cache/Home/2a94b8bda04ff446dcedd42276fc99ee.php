@@ -52,7 +52,9 @@
     <div class="container">
       <div class="navbar-header">
         <a href="/index.php">
-          <img src="/Public/images/logo11.png"  style="width: 50px;" alt="">
+          <img src="/Public/images/log.png"  style="width: 250px;" alt="">
+
+          <!--<img src="/Public/images/logo11.png"  style="width: 50px;" alt="">-->
         </a>
       </div>
 
@@ -96,16 +98,41 @@
 <script src="/Public/js/dialog.js"></script>
 <section id="property" class="padding bg_gallery">
   <div class="container">
-
-
     <div class="row">
       <div class="col-sm-9 col-md-9">
+        <!--<div class="row">-->
+          <!--<form action="/admin.php" method="get">-->
+            <!--<div class="input-group">-->
+              <!--<span class="input-group-addon">查询</span>-->
+              <!--<div class="col-md-3">-->
+                <!--<div class="input-group">-->
+                  <!--<input id="magazine_name" class="form-control" name="title" type="text" value="" placeholder="杂志名" />-->
+                  <!--<span class="input-group-btn">-->
+                  <!--<button id="sub_data1" type="submit" class="btn btn-primary"><i class="glyphicon glyphicon-search"></i></button>-->
+                <!--</span>-->
+                <!--</div>-->
+              <!--</div>-->
+
+              <!--<input type="hidden" name="c" value="menu"/>-->
+              <!--<input type="hidden" name="a" value="index"/>-->
+
+            <!--</div>-->
+          <!--</form>-->
+        <!--</div>-->
+
+
+        <div class="container" style="width:500px">
+          <div class="input-group">
+            <input id="magazine_name" type="text" class="form-control input-lg"><span class="input-group-addon btn btn-primary" id="sub_data1">搜索</span>
+          </div>
+        </div>
+
+
         <div class="banner"  >
+
           <div class="banner-left">
-
-
             <a target="_blank" href="/index.php?c=detail&id=<?php echo ($result['topPicMagazine'][0]['magazine_id']); ?>">
-              <img width="670" height="360" src="<?php echo ($result['topPicMagazine'][0]['thumb']); ?>" alt="">
+              <img width="300" height="600" src="<?php echo ($result['topPicMagazine'][0]['thumb']); ?>" alt="">
             </a>
           </div>
           <div class="banner-right">
@@ -126,7 +153,7 @@
               <div class="image">
                 <a href="/index.php?c=detail&id=<?php echo ($vo["magazine_id"]); ?>"><img src="<?php echo ($vo["thumb"]); ?>" alt="<?php echo ($vo["title"]); ?>" class="img-responsive"></a>
                 <div class="price clearfix">
-                  <span class="tag pull-right"><?php echo ($vo["price"]); ?>元/年</span>
+                  <span class="tag pull-right"><?php echo ($vo["price"]); ?>元/期</span>
                 </div>
                 <span class="tag_t" <?php if($vo["forsale"] == 0): ?>style="display:none"<?php endif; ?>><?php if($vo["forsale"] == 1): ?>For Sale<?php endif; ?></span>
                 <span class="tag_l" <?php if($vo["featured"] == 0): ?>style="display:none"<?php endif; ?>><?php if($vo["featured"] == 1): ?>Featured<?php endif; ?></span>
@@ -171,7 +198,7 @@
     </div>
       <div class="col-sm-3 col-md-3" >
   <div class="right-title">
-    <h3>销量排行</h3>
+    <h3>订阅排行</h3>
     <!--调试-->
     <span>top 5</span>
   </div>
@@ -193,9 +220,37 @@
   </div>
 </section>
 </body>
+
 <script src="/Public/js/jquery.js"></script>
 <script src="/Public/js/count.js"></script>
 <script src="/Public/js/jquery-2.1.4.js"></script>
 <script src="/Public/js/jquery.cubeportfolio.min.js"></script>
 <script src="/Public/js/functions.js"></script>
+
+<script >
+    $("#sub_data1").click(function(){
+        var magazine_name = document.getElementById('magazine_name').value;
+        if(!magazine_name){
+            return dialog.error("杂志名不能为空！");
+        }
+        else{
+            postData = {};
+            postData['title'] = magazine_name;
+
+            $.post('/index.php?m=home&c=index&a=getMagazineIdByMagazineName', postData, function(result){
+                if(result.status == 1) {
+                    jump_url = '/index.php?c=detail&id=' + result.message;
+                    window.location.href=jump_url;
+                }
+                if(result.status == 0) {
+                    return dialog.error(result.message);
+                }
+            },"json");
+
+        }
+        return;
+
+    });
+
+</script>
 </html>

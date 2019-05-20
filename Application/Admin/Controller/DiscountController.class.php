@@ -28,7 +28,7 @@ class DiscountController extends CommonController
                 return show(0, '优惠码不能为空');
             }
             // 判定优惠码是否存在
-            $discount = D("Discount")->getDiscountByDiscountname($_POST['discountname']);
+            $discount = D("Discount")->getDiscountByDiscountCode($_POST['code']);
             if($discount && $discount['status']!=-1) {
                 return show(0,'该优惠码已存在');
             }

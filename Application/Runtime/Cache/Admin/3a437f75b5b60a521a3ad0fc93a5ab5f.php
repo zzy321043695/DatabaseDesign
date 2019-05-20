@@ -31,6 +31,7 @@
     <script src="/Public/js/dialog/layer.js"></script>
     <script src="/Public/js/dialog.js"></script>
     <script type="text/javascript" src="/Public/js/party/jquery.uploadify.js"></script>
+    <script src="/Public/js/echarts.min.js"></script>
 
 </head>
 
@@ -156,6 +157,7 @@
         'edit_url' : '/admin.php?c=position&a=edit',
         'set_status_url' : '/admin.php?c=position&a=setStatus',
         'add_url' : '/admin.php?c=position&a=add',
+        'jump_url' : '/admin.php?c=position',
     }
     $(".singcms-table #sing-add-position-content").on('click',function(){
         var id = $(this).attr('attr-id');

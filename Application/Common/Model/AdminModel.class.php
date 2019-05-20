@@ -68,11 +68,10 @@ class AdminModel extends Model {
         $time = mktime(0,0,0,date("m"),date("d"),date("Y"));
         $data = array(
             'status' => 1,
-            'lastlogintime' => array("gt",$time),
+            //'lastlogintime' => array("gt",$time),
         );
 
         $res = $this->_db->where($data)->count();
         return $res['tp_count'];
     }
-
 }

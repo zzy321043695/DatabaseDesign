@@ -68,6 +68,31 @@ class UserManagerController extends CommonController
         if(!$user) {
             return show(0,'用户不存在');
         }
+        if(!$_POST['realname']){
+            return show(0, '姓名不能为空！');
+        }
+        if(!$_POST['phone_number']){
+            return show(0, '电话号码不能为空！');
+        }
+        if(!$_POST['address']){
+            return show(0, '住址不能为空！');
+        }
+        if(!$_POST['post_number']){
+            return show(0, '邮编不能为空！');
+        }
+        if(!is_numeric($_POST['phone_number'] )){
+            return show(0, '电话号码只能为数字！');
+        }
+        if(strlen($_POST['phone_number'])!=11){
+            return show(0, '电话号码只能为11位！');
+        }
+        if(!is_numeric($_POST['post_number'] )){
+            return show(0, '邮编只能为数字！');
+        }
+        if(strlen($_POST['post_number'])!=6){
+            return show(0, '邮编只能为6位！');
+        }
+
 
         $data['realname'] = $_POST['realname'];
         $data['email'] = $_POST['email'];
@@ -83,6 +108,10 @@ class UserManagerController extends CommonController
         }
     }
 
+    public function getRegister(){
+        $user=D('User')->getUserByTime1();
 
+        $this->ajaxReturn(array('code'=>200,'result'=>$user));
+    }
 
 }

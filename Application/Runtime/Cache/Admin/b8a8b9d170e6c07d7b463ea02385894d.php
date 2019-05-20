@@ -31,6 +31,7 @@
     <script src="/Public/js/dialog/layer.js"></script>
     <script src="/Public/js/dialog.js"></script>
     <script type="text/javascript" src="/Public/js/party/jquery.uploadify.js"></script>
+    <script src="/Public/js/echarts.min.js"></script>
 
 </head>
 
@@ -189,6 +190,7 @@
         'set_status_url' : '/admin.php?c=positioncontent&a=setStatus',
         'add_url' : '/admin.php?c=positioncontent&a=add',
         'listorder_url' : '/admin.php?c=positioncontent&a=listorder',
+        'jump_url' : '/admin.php?c=positioncontent',
     }
 
 </script>

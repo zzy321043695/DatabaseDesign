@@ -34,7 +34,8 @@ class LoginController extends Controller {
             return show(0,'密码错误');
         }
 
-        D("User")->updateByUserId($ret['user_id'],array('lastlogintime'=>time()));
+        $time=time();
+        D("User")->updateByUserId($ret['user_id'],array('lastlogintime'=>date('Y-m-d H:i:s', $time),'isOnline' => 1));
 
         session('User', $ret);
         return show(1,'登录成功');
@@ -43,6 +44,8 @@ class LoginController extends Controller {
     }
 
     public function loginout() {
+        $ret=session('User');
+        D("User")->updateByUserId($ret['user_id'],array('isOnline' => 0));
         session('User', null);
         //return show(1,'您已成功退出');
         $this->redirect('/index.php');

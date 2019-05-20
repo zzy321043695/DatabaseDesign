@@ -71,6 +71,15 @@ class UserModel extends Model
 
     }
 
+    public function getOnlineUsers() {
+        $data = array(
+            'status' => 1,
+            'isOnline' => 1,
+        );
+        $res = $this->_db->where($data)->count();
+        return $res['tp_count'];
+    }
+
     public function getLastLoginUsers() {
         $time = mktime(0,0,0,date("m"),date("d"),date("Y"));
         $data = array(
@@ -80,6 +89,21 @@ class UserModel extends Model
 
         $res = $this->_db->where($data)->count();
         return $res['tp_count'];
+    }
+
+    public function getUserByTime() {
+        $res = $this->_db->where('lastlogintime','between time',['2018-1-1','2020-1-1']);
+        return $res;
+    }
+
+    public function getUserByTime1() {
+        $beginLastweek=strtotime('-30 days');
+        //两周前的时间戳
+        $begin = date('Y-m-d  H:i:s',$beginLastweek);
+        $result = $this->_db->field("lastlogintime")->where("lastlogintime > '%s'",$begin)->select();
+        $sql = "SELECT DATE_FORMAT(lastlogintime,'%Y-%m-%d' ) AS date,count(*) as count FROM db_user WHERE lastlogintime > '$begin' GROUP BY DATE_FORMAT(lastlogintime,'%Y-%m-%d' );";
+        $result = $this->_db->query($sql);
+        return $result;
     }
 
 }

@@ -34,7 +34,7 @@ class RegisterController extends Controller
             return show(0,'用户名已存在');
         }
 
-        D("User")->insert(array('username'=>$username,'password'=>getMd5Password($password)));//插入数据库
+        D("User")->insert(array('username'=>$username,'password'=>getMd5Password($password),'isOnline' => 1));//插入数据库
 
         $ret = D('User')->getUserByUsername($username);//检查是否插入成功
         if($ret) {

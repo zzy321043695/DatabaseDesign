@@ -33,8 +33,8 @@ class LoginController extends Controller {
         if($ret['password'] != getMd5Password($password)) {
             return show(0,'密码错误');
         }
-
-        D("Admin")->updateByAdminId($ret['admin_id'],array('lastlogintime'=>time()));
+        $time = time();
+        D("Admin")->updateByAdminId($ret['admin_id'],array('lastlogintime'=>date('Y-m-d H:i:s', $time)));
 
         session('adminUser', $ret);
         return show(1,'登录成功');

@@ -31,6 +31,7 @@
     <script src="/Public/js/dialog/layer.js"></script>
     <script src="/Public/js/dialog.js"></script>
     <script type="text/javascript" src="/Public/js/party/jquery.uploadify.js"></script>
+    <script src="/Public/js/echarts.min.js"></script>
 
 </head>
 
@@ -88,7 +89,7 @@
                 <div class="col-lg-12">
                     <ol class="breadcrumb">
                         <li>
-                            <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=admin">前端用户管理</a>
+                            <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=admin">优惠券管理</a>
                         </li>
                         <li class="active">
                             <i class="fa fa-table"></i><?php echo ($nav); ?>
@@ -124,7 +125,7 @@
                                         <td><?php echo ($vo["discount"]); ?></td>
                                         <td><?php echo ($vo["code"]); ?></td>
                                         <td><?php echo ($vo["user_id"]); ?></td>
-                                        <td><span  attr-status="<?php if($vo['status'] == 1): ?>0<?php else: ?>1<?php endif; ?>"  attr-id="<?php echo ($vo["admin_id"]); ?>" class="sing_cursor singcms-on-off" id="singcms-on-off" ><?php echo (status($vo["status"])); ?></span></td>
+                                        <td><span  attr-status="<?php if($vo['status'] == 1): ?>0<?php else: ?>1<?php endif; ?>"  attr-id="<?php echo ($vo["id"]); ?>" class="sing_cursor singcms-on-off" id="singcms-on-off" ><?php echo (status($vo["status"])); ?></span></td>
 
                                         <td>
                                             <span class="sing_cursor glyphicon glyphicon-edit" aria-hidden="true" id="singcms-edit" attr-id="<?php echo ($vo["id"]); ?>" ></span>
@@ -153,7 +154,7 @@
         'edit_url' : '/admin.php?c=discount&a=edit',
         'set_status_url' : '/admin.php?c=discount&a=setStatus',
         'index_url' : '/admin.php?c=discount',
-
+        'jump_url' : '/admin.php?c=discount',
     }
 </script>
 

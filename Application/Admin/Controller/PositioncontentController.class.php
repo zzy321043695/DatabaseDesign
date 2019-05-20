@@ -89,7 +89,7 @@ class PositioncontentController extends CommonController {
         }
     }
 
-    public function setStatus() {
+    public function setStatus(){
 
         $data = array(
             'id' => intval($_POST['id']),

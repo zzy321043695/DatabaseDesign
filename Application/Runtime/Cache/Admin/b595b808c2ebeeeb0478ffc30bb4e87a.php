@@ -31,6 +31,7 @@
     <script src="/Public/js/dialog/layer.js"></script>
     <script src="/Public/js/dialog.js"></script>
     <script type="text/javascript" src="/Public/js/party/jquery.uploadify.js"></script>
+    <script src="/Public/js/echarts.min.js"></script>
 
 </head>
 
@@ -39,9 +40,7 @@
 
 
 <body>
-
 <div id="wrapper">
-
     <?php
  $navs = D("Menu")->getAdminMenus(); $username = getLoginUsername(); foreach($navs as $k=>$v) { if($v['c'] == 'admin' && $username != 'admin') { unset($navs[$k]); } } $index = 'index'; ?>
 <!-- Navigation -->
@@ -83,11 +82,8 @@
   </div>
   <!-- /.navbar-collapse -->
 </nav>
-
 <div id="page-wrapper">
-
     <div class="container-fluid">
-
         <!-- Page Heading -->
         <div class="row">
             <div class="col-lg-12">
@@ -113,7 +109,7 @@
                             </div>
                             <div class="col-xs-9 text-right">
                                 <div class="huge"><?php echo ($admincount); ?></div>
-                                <div>后台登录用户数</div>
+                                <div>后台用户总数</div>
                             </div>
                         </div>
                     </div>
@@ -123,7 +119,7 @@
                             <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                             <div class="clearfix"></div>
                         </div>
-                    
+
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -148,12 +144,13 @@
                     </a>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6">
                 <div class="panel panel-yellow">
                     <div class="panel-heading">
                         <div class="row">
                             <div class="col-xs-3">
-                                <i class="fa glyphicon glyphicon-asterisk  fa-5x"></i>
+                                <i class="fa fa-bar-chart-o  fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
                                 <div class="huge"><?php echo ($magazine["count"]); ?></div>
@@ -170,6 +167,7 @@
                     </a>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6">
                 <div class="panel panel-red">
                     <div class="panel-heading">
@@ -183,6 +181,7 @@
                             </div>
                         </div>
                     </div>
+
                     <a href="/admin.php?c=position">
                         <div class="panel-footer">
                             <span class="pull-left">查看</span>
@@ -190,9 +189,113 @@
                             <div class="clearfix"></div>
                         </div>
                     </a>
+
                 </div>
+
             </div>
-        </div>
+
+
+            <div class="col-lg-3 col-md-6">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <i class="fa fa-group fa-5x"></i>
+                            </div>
+                            <div class="col-xs-9 text-right">
+                                <div class="huge"><?php echo ($onlineUserCount); ?></div>
+                                <div>前端登陆用户数</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="/admin.php?c=userManager">
+                        <div class="panel-footer">
+                            <span class="pull-left">查看</span>
+                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+
+                </div>
+
+
+                <div id="main" style="width: 1000px;height:400px;"></div>
+                <script type="text/javascript">
+                    // 基于准备好的dom，初始化echarts实例
+                    var myChart = echarts.init(document.getElementById('main'));
+                    // 指定图表的配置项和数据
+                    var date = [],num = [];
+                    function getNumber(){
+                        $.ajax({
+                            url:"/index.php?m=admin&c=userManager&a=getRegister",
+                            async:false,
+                            dataType:'json',
+                            type:'post',
+                            success:function(msg){
+                                var result = msg.result;
+                                if(msg.code == 200){
+                                    for(var i = 0 ; i < result.length; i++){
+                                        date.push(result[i].date);
+                                        num.push(result[i].count);
+                                    }
+                                }
+                            }
+                        });
+                    };
+                    getNumber();
+                    option = {
+                        title: {
+                            text: '近期用户登陆走势'
+                        },
+                        tooltip: {
+                            trigger: 'axis'
+                        },
+                        legend: {
+                            data:['登陆数']
+                        },
+                        grid: {
+                            left: '3%',
+                            right: '4%',
+                            bottom: '3%',
+                            containLabel: true
+                        },
+                        toolbox: {
+                            feature: {
+                                saveAsImage: {}
+                            }
+                        },
+                        xAxis: {
+                            type: 'category',
+                            boundaryGap: false,
+                            data: date
+                        },
+                        yAxis: {
+                            type: 'value'
+                        },
+                        series: [
+                            {
+                                name:'登陆数',
+                                type:'line',
+                                stack: '总量',
+                                data:num
+                            },
+                        ]
+                    };
+                    // 使用刚指定的配置项和数据显示图表。
+                    myChart.setOption(option);
+                </script>
+
+
+
+
+
+
+
+
+            </div>
+
+
 
 
 

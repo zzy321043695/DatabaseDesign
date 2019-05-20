@@ -16,7 +16,7 @@
 
                 <ol class="breadcrumb">
                     <li>
-                        <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=admin">前端用户管理</a>
+                        <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=admin">优惠券添加</a>
                     </li>
                     <li class="active">
                         <i class="fa fa-edit"></i> 添加
@@ -31,23 +31,23 @@
 
                 <form class="form-horizontal" id="singcms-form">
                     <div class="form-group">
-                        <label for="inputname" class="col-sm-2 control-label">用户名:</label>
+                        <label for="inputname" class="col-sm-2 control-label">折扣力度:</label>
                         <div class="col-sm-5">
-                            <input type="text" name="username" class="form-control" id="inputname" placeholder="请填写用户名">
+                            <input type="text" name="discount" class="form-control" id="inputname" placeholder="请填写折扣力度">
                         </div>
                     </div>
                     
                     <div class="form-group">
-                        <label for="inputPassword3" class="col-sm-2 control-label">密码:</label>
+                        <label for="inputPassword3" class="col-sm-2 control-label">优惠码:</label>
                         <div class="col-sm-5">
-                            <input type="text" name="password" class="form-control" id="inputname" placeholder="请填写密码"/> 
+                            <input type="text" name="code" class="form-control" id="inputname" placeholder="请填写优惠码"/>
                         </div>
 
                     </div>
                     <div class="form-group">
-                        <label for="inputPassword3" class="col-sm-2 control-label">真实姓名:</label>
+                        <label for="inputPassword3" class="col-sm-2 control-label">用户id:</label>
                         <div class="col-sm-5">
-                            <input type="text" class="form-control" name="realname" id="inputPassword3" placeholder="请填写真实姓名">
+                            <input type="text" class="form-control" name="user_id" id="inputPassword3" placeholder="请填写使用该优惠码的用户id">
                         </div>
                     </div>
 
@@ -56,6 +56,7 @@
                             <button type="button" class="btn btn-default" id="singcms-button-submit">提交</button>
                         </div>
                     </div>
+
                 </form>
 
 
@@ -76,8 +77,8 @@
 <script>
 
     var SCOPE = {
-        'save_url' : '/admin.php?c=userManager&a=add',
-        'jump_url' : '/admin.php?c=userManager',
+        'save_url' : '/admin.php?c=discount&a=add',
+        'jump_url' : '/admin.php?c=discount',
     }
 </script>
 <include file="Index/footer" />

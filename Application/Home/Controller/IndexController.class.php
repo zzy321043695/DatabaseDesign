@@ -80,5 +80,19 @@ class IndexController extends CommonController {
         return show(1, 'success', $data);
     }
 
+    public function getMagazineIdByMagazineName() {
+        if($_POST){
+            $res = D('Magazine')->select();
+            $found = 0;
+            foreach ($res as $value){
+                if($value['title'] == $_POST['title']){
+                    $r = 'id=';
+                    return show(1,$value['magazine_id']);
+                }
+            }
+            return show(0,'查询的杂志不存在！');
+        }
+
+    }
 
 }

@@ -31,6 +31,7 @@
     <script src="/Public/js/dialog/layer.js"></script>
     <script src="/Public/js/dialog.js"></script>
     <script type="text/javascript" src="/Public/js/party/jquery.uploadify.js"></script>
+    <script src="/Public/js/echarts.min.js"></script>
 
 </head>
 
@@ -205,6 +206,13 @@
               <label for="inputPassword3" class="col-sm-2 control-label">期刊类别:</label>
               <div class="col-sm-5">
                 <input value="<?php echo ($magazine["type"]); ?>" type="text" class="form-control" name="type" id="inputPassword3" placeholder="例如：月刊">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">单价:</label>
+              <div class="col-sm-5">
+                <input value="<?php echo ($magazine["price"]); ?>" type="text" class="form-control" name="price" id="inputPassword3" placeholder="填写每期单价">
               </div>
             </div>
 

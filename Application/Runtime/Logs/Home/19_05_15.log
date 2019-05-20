@@ -1,0 +1,2174 @@
+[ 2019-05-15T13:27:13+08:00 ] 172.23.69.254 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.057777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037527s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.1758s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0039s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0484s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 AND `thumb` <> '' ORDER BY magazine_id desc LIMIT 30   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000502s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000553s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0472s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.405344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.405440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025004s ]
+
+[ 2019-05-15T13:27:13+08:00 ] 172.23.69.254 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+
+[ 2019-05-15T20:42:23+08:00 ] 172.23.69.254 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0385s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 AND `thumb` <> '' ORDER BY magazine_id desc LIMIT 30   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.184945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2019-05-15T20:42:24+08:00 ] 172.23.69.254 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+
+[ 2019-05-15T20:42:40+08:00 ] 172.23.69.254 /index.php?m=home&c=index&a=getMagazineIdByMagazineName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `db_magazine` ORDER BY magazine_id desc LIMIT 100   [ RunTime:0.0006s ]
+
+[ 2019-05-15T20:42:40+08:00 ] 172.23.69.254 /index.php?c=detail&id=42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=42 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `db_magazine` SET `count`='14' WHERE ( magazine_id=42 ) [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `db_magazine_content` [ RunTime:0.1425s ]
+SQL: SELECT * FROM `db_magazine_content` WHERE ( magazine_id=42 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0263s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 182 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 182 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 263 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 264 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2019-05-15T20:42:50+08:00 ] 172.23.69.254 /index.php?c=cart&a=addMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+
+[ 2019-05-15T20:43:15+08:00 ] 172.23.69.254 /index.php?c=detail&id=42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=42 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `db_magazine` SET `count`='15' WHERE ( magazine_id=42 ) [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `db_magazine_content` [ RunTime:0.0292s ]
+SQL: SELECT * FROM `db_magazine_content` WHERE ( magazine_id=42 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0243s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 262 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001657s ]
+
+[ 2019-05-15T20:48:54+08:00 ] 172.23.69.254 /index.php?c=cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001824s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001424s ]
+
+[ 2019-05-15T20:48:56+08:00 ] 172.23.69.254 /index.php?m=home&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2019-05-15T20:48:58+08:00 ] 172.23.69.254 /index.php?m=home&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `db_user` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `db_user` WHERE ( username="zzy" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `db_user` SET `lastlogintime`='2019-05-15 20:48:58',`isOnline`='1' WHERE ( user_id=32 ) [ RunTime:0.0004s ]
+
+[ 2019-05-15T20:49:00+08:00 ] 172.23.69.254 /index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0141s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 AND `thumb` <> '' ORDER BY magazine_id desc LIMIT 30   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002230s ]
+
+[ 2019-05-15T20:49:00+08:00 ] 172.23.69.254 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+
+[ 2019-05-15T20:49:02+08:00 ] 172.23.69.254 /index.php?c=cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `db_subscription` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `db_subscription` WHERE `username` = 'zzy' AND `user_id` = 32 ORDER BY update_time desc  LIMIT 0,30   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0155s ]
+SQL: SHOW COLUMNS FROM `db_order` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `db_order` WHERE `username` = 'zzy' AND `user_id` = 32 ORDER BY update_time desc  LIMIT 0,30   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=23 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=23 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=42 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=25 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=42 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=42 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=26 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=45 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003087s ]
+
+[ 2019-05-15T20:49:05+08:00 ] 172.23.69.254 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0145s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 AND `thumb` <> '' ORDER BY magazine_id desc LIMIT 30   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2019-05-15T20:49:06+08:00 ] 172.23.69.254 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+
+[ 2019-05-15T20:49:08+08:00 ] 172.23.69.254 /index.php?c=cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `db_subscription` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `db_subscription` WHERE `username` = 'zzy' AND `user_id` = 32 ORDER BY update_time desc  LIMIT 0,30   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `db_order` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `db_order` WHERE `username` = 'zzy' AND `user_id` = 32 ORDER BY update_time desc  LIMIT 0,30   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=26 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=23 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=23 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=42 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=22 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=25 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=42 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=42 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=26 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=26 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=45 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003486s ]
+
+[ 2019-05-15T23:11:39+08:00 ] 172.26.132.144 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.039459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039536s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.1573s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0036s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0514s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 AND `thumb` <> '' ORDER BY magazine_id desc LIMIT 30   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000697s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000770s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0643s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.549284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.549353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.032385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.047674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.047896s ]
+
+[ 2019-05-15T23:11:41+08:00 ] 172.26.132.144 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+
+[ 2019-05-15T23:12:14+08:00 ] 172.26.207.154 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0252s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 AND `thumb` <> '' ORDER BY magazine_id desc LIMIT 30   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2019-05-15T23:12:14+08:00 ] 172.26.207.154 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+
+[ 2019-05-15T23:13:41+08:00 ] 172.26.207.154 /index.php?c=cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `db_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0260s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CatController.class.php 第 19 行.
+SQL: SELECT * FROM `db_magazine` WHERE `status` <> -1 AND `thumb` <> '' AND `catid` = 3 ORDER BY listorder desc ,magazine_id desc LIMIT 0,20   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `db_magazine` WHERE `status` <> -1 AND `thumb` <> '' AND `catid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\14fcc139096cfd1d2075eb8db7e60b1e.php 第 197 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\14fcc139096cfd1d2075eb8db7e60b1e.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2019-05-15T23:13:44+08:00 ] 172.26.207.154 /index.php?c=cat&id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `db_menu` WHERE ( menu_id=12 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0324s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CatController.class.php 第 19 行.
+SQL: SELECT * FROM `db_magazine` WHERE `status` <> -1 AND `thumb` <> '' AND `catid` = 12 ORDER BY listorder desc ,magazine_id desc LIMIT 0,20   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `db_magazine` WHERE `status` <> -1 AND `thumb` <> '' AND `catid` = 12 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\14fcc139096cfd1d2075eb8db7e60b1e.php 第 197 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\14fcc139096cfd1d2075eb8db7e60b1e.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001908s ]
+
+[ 2019-05-15T23:13:49+08:00 ] 172.26.207.154 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0012s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0224s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 AND `thumb` <> '' ORDER BY magazine_id desc LIMIT 30   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2019-05-15T23:13:49+08:00 ] 172.26.207.154 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+
+[ 2019-05-15T23:14:02+08:00 ] 172.26.132.144 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0173s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 AND `thumb` <> '' ORDER BY magazine_id desc LIMIT 30   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001718s ]
+
+[ 2019-05-15T23:14:02+08:00 ] 172.26.132.144 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+
+[ 2019-05-15T23:14:06+08:00 ] 172.26.207.154 /index.php?m=home&c=index&a=getMagazineIdByMagazineName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `db_magazine` ORDER BY magazine_id desc LIMIT 100   [ RunTime:0.0008s ]
+
+[ 2019-05-15T23:14:07+08:00 ] 172.26.207.154 /index.php?c=detail&id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=22 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `db_magazine` SET `count`='129' WHERE ( magazine_id=22 ) [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `db_magazine_content` [ RunTime:0.0977s ]
+SQL: SELECT * FROM `db_magazine_content` WHERE ( magazine_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0185s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 262 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2019-05-15T23:14:19+08:00 ] 172.26.132.144 /index.php?c=detail&id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=46 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `db_magazine` SET `count`='10' WHERE ( magazine_id=46 ) [ RunTime:0.0014s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `db_magazine_content` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `db_magazine_content` WHERE ( magazine_id=46 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0174s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 262 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2019-05-15T23:14:41+08:00 ] 172.26.132.144 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+
+[ 2019-05-15T23:15:25+08:00 ] 172.26.132.144 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0012s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0199s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 AND `thumb` <> '' ORDER BY magazine_id desc LIMIT 30   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.155007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002148s ]
+
+[ 2019-05-15T23:15:26+08:00 ] 172.26.132.144 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+
+[ 2019-05-15T23:15:33+08:00 ] 172.26.132.144 /index.php?c=detail&id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=21 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `db_magazine` SET `count`='106' WHERE ( magazine_id=21 ) [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `db_magazine_content` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `db_magazine_content` WHERE ( magazine_id=21 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0275s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 262 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002076s ]
+
+[ 2019-05-15T23:16:55+08:00 ] 172.26.207.154 /index.php?c=detail&id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=21 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `db_magazine` SET `count`='107' WHERE ( magazine_id=21 ) [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `db_magazine_content` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `db_magazine_content` WHERE ( magazine_id=21 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0192s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 262 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002422s ]
+
+[ 2019-05-15T23:17:03+08:00 ] 172.26.207.154 /index.php?c=cart&a=addMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+
+[ 2019-05-15T23:17:08+08:00 ] 172.26.207.154 /index.php?c=detail&id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0546s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=21 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `db_magazine` SET `count`='108' WHERE ( magazine_id=21 ) [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `db_magazine_content` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `db_magazine_content` WHERE ( magazine_id=21 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0343s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 262 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2019-05-15T23:17:12+08:00 ] 172.26.207.154 /index.php?c=detail&id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=21 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `db_magazine` SET `count`='109' WHERE ( magazine_id=21 ) [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `db_magazine_content` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `db_magazine_content` WHERE ( magazine_id=21 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0176s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 262 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2019-05-15T23:17:15+08:00 ] 172.26.207.154 /index.php?c=detail&id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=22 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `db_magazine` SET `count`='130' WHERE ( magazine_id=22 ) [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `db_magazine_content` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `db_magazine_content` WHERE ( magazine_id=22 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0190s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 262 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001568s ]
+
+[ 2019-05-15T23:19:46+08:00 ] 172.26.132.144 /index.php?c=detail&id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=46 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `db_magazine` SET `count`='11' WHERE ( magazine_id=46 ) [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `db_magazine_content` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `db_magazine_content` WHERE ( magazine_id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0235s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0323s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 262 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2019-05-15T23:20:31+08:00 ] 172.26.132.144 /index.php?c=detail&id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0336s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=46 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `db_magazine` SET `count`='12' WHERE ( magazine_id=46 ) [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `db_magazine_content` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `db_magazine_content` WHERE ( magazine_id=46 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0295s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0315s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 59 行.
+NOTIC: [8] Undefined index: User F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Common\function.php 第 63 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 262 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002037s ]
+
+[ 2019-05-15T23:23:42+08:00 ] 172.26.207.154 /index.php?c=cart&a=addMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+
+[ 2019-05-15T23:23:45+08:00 ] 172.26.207.154 /index.php?c=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2019-05-15T23:23:52+08:00 ] 172.26.207.154 /index.php?m=home&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `db_user` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `db_user` WHERE ( username="zk" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `db_user` SET `lastlogintime`='2019-05-15 23:23:52',`isOnline`='1' WHERE ( user_id=51 ) [ RunTime:0.0033s ]
+
+[ 2019-05-15T23:23:54+08:00 ] 172.26.207.154 /index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002256s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0303s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 AND `thumb` <> '' ORDER BY magazine_id desc LIMIT 30   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0305s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001541s ]
+
+[ 2019-05-15T23:23:54+08:00 ] 172.26.207.154 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003851s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+
+[ 2019-05-15T23:24:00+08:00 ] 172.26.207.154 /index.php?c=detail&id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=22 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `db_magazine` SET `count`='131' WHERE ( magazine_id=22 ) [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `db_magazine_content` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `db_magazine_content` WHERE ( magazine_id=22 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0261s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 262 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001914s ]
+
+[ 2019-05-15T23:24:02+08:00 ] 172.26.207.154 /index.php?c=cart&a=addMagazine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+SQL: SHOW COLUMNS FROM `db_user` [ RunTime:0.0416s ]
+SQL: SELECT * FROM `db_user` WHERE ( user_id=51 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `db_subscription` [ RunTime:0.2347s ]
+SQL: SELECT * FROM `db_subscription` WHERE ( user_id=51 and magazine_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `db_subscription` (`count`,`magazine_id`,`magazine_name`,`username`,`user_id`,`thumb`,`price`,`total_price`) VALUES ('1','22','读者','zk','51','/upload/2019/05/13/5cd94951bd326.jpg','18','18') [ RunTime:0.0064s ]
+
+[ 2019-05-15T23:24:03+08:00 ] 172.26.207.154 /index.php?c=detail&id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) F:\phpStudy\PHPTutorial\WWW\DB\Application\Home\Controller\CommonController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0362s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=22 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `db_magazine` SET `count`='132' WHERE ( magazine_id=22 ) [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `db_magazine_content` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `db_magazine_content` WHERE ( magazine_id=22 ) LIMIT 1   [ RunTime:0.0027s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `db_position_content` [ RunTime:0.0259s ]
+NOTIC: [8] Undefined index: title F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `db_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `db_magazine` WHERE `status` = 1 ORDER BY count desc,magazine_id desc  LIMIT 10   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `db_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 181 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 262 行.
+NOTIC: [8] Undefined variable: magazine F:\phpStudy\PHPTutorial\WWW\DB\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001755s ]
+
+[ 2019-05-15T23:24:06+08:00 ] 172.26.207.154 /index.php?c=cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `db_subscription` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `db_subscription` WHERE `username` = 'zk' AND `user_id` = 51 ORDER BY update_time desc  LIMIT 0,30   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\MagazineModel::find() should be compatible with Think\Model::find($options = Array) F:\phpStudy\PHPTutorial\WWW\DB\Application\Common\Model\MagazineModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `db_magazine` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=22 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `db_order` [ RunTime:0.1254s ]
+SQL: SELECT * FROM `db_order` WHERE `username` = 'zk' AND `user_id` = 51 ORDER BY update_time desc  LIMIT 0,30   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `db_magazine` WHERE ( magazine_id=26 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2019-05-15T23:25:42+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:42+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:42+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010647s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:43+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:43+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:43+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:43+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:44+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:44+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:44+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:44+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:45+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:45+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:45+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:46+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:46+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:46+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:46+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:51+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:53+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:53+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:53+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:53+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:54+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002865s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:54+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:55+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:55+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:55+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:55+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:55+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:55+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:55+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:55+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:55+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:55+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:55+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:55+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:55+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:56+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:56+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:56+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:56+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:56+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:56+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:56+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:56+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:56+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:56+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:56+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001958s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:56+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:57+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:57+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:57+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002150s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:57+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:57+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:57+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+
+[ 2019-05-15T23:25:57+08:00 ] 172.26.207.154 /index.php?&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+NOTIC: [8] Undefined variable: sing_path F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [8] Undefined variable: module F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 994 行.
+NOTIC: [8] Undefined variable: var F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpStudy\PHPTutorial\WWW\DB\ThinkPHP\Common\functions.php 第 997 行.
+

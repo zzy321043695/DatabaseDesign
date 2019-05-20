@@ -13,10 +13,13 @@ class IndexController extends CommonController {
         $positionCount = D('Position')->getCount(array('status'=>1));
         $adminCount = D("Admin")->getLastLoginUsers();
 
+        $onlineUserCount = D("User")->getOnlineUsers();
+
         $this->assign('magazine', $magazine);
         $this->assign('magazinecount', $magazinecount);
         $this->assign('positioncount', $positionCount);
         $this->assign('admincount', $adminCount);
+        $this->assign('onlineUserCount', $onlineUserCount);
         $this->display();
     }
 
