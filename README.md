@@ -1,13 +1,10 @@
-## 简介
-
+### 简介
 本项目是基于thinkphp开发的一个邮局订报管理系统，包含用户界面和管理员界面。
 
-## 环境
-
+### 环境
 phpstudy(mysql,apache):将databasedesign.sql里的数据库语句导入mysql。
 
-## 配置虚拟域名
-
+### 配置虚拟域名
 1.首页我们得找到host文件、windows下这个文件在c盘中WINDOWS\system32\drivers\etc\hosts中 加入如下内容：
 
 ``` 
@@ -27,8 +24,7 @@ ServerName 172.23.69.254	#ip访问地址
 ```
 然后重启服务器访问magazine.com就可以访问你的项目了
 
-## 界面
-
+### 界面
 <img src="https://github.com/zzy321043695/DatabaseDesign/blob/master/src/1.png" width="500" height="300" alt="前台"/> 
 
 <img src="https://github.com/zzy321043695/DatabaseDesign/blob/master/src/2.png" width="500" height="300" alt="详情"/> 
