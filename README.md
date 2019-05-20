@@ -27,8 +27,8 @@ phpstudy(mysql,apache):将databasedesign.sql里的数据库语句导入mysql。
 
 ## 界面
 
-<img src="https://github.com/zzy321043695/DatabaseDesign/blob/master/src/1.png" width="300" height="500" alt="前台"/> 
+<img src="https://github.com/zzy321043695/DatabaseDesign/blob/master/src/1.png" width="500" height="300" alt="前台"/> 
 
-<img src="https://github.com/zzy321043695/DatabaseDesign/blob/master/src/2.png" width="300" height="500" alt="详情"/> 
+<img src="https://github.com/zzy321043695/DatabaseDesign/blob/master/src/2.png" width="500" height="300" alt="详情"/> 
 
-<img src="https://github.com/zzy321043695/DatabaseDesign/blob/master/src/3.png" width="300" height="500" alt="后台"/> 
+<img src="https://github.com/zzy321043695/DatabaseDesign/blob/master/src/3.png" width="500" height="300" alt="后台"/> 
