@@ -5,3 +5,5 @@
 ## 环境
 
 phpstudy(mysql,apache):将databasedesign.sql里的数据库语句导入mysql。
+
+## 界面
